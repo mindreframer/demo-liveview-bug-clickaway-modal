@@ -4,7 +4,7 @@ defmodule DemoWeb.UserLiveTest do
   import Phoenix.LiveViewTest
   import Demo.AccountsFixtures
 
-  @create_attrs %{age: 42, name: "some name", roles: []}
+  @create_attrs %{age: 42, name: "some name", roles: ["option1"]}
   @update_attrs %{age: 43, name: "some updated name", roles: []}
   @invalid_attrs %{age: nil, name: nil, roles: []}
 
